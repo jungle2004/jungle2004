@@ -1,0 +1,9 @@
+.form {  font-family: verdana; font-size: 9px; color: #333333; height: 15px; width: 134px; border: 1px #7A695F solid}
+.font {  font-family: verdana; font-size: 9px; color: #000000; text-decoration: none}
+.font1 { font-family: verdana; font-size: 9px; color: #00ffff; text-decoration: none ; font-weight: normal}
+.font2 { font-family: verdana; font-size: 9px; color: #B4A49B; text-decoration: underline}
+.form1 { font-family: verdana; font-size: 9px; color: #00ffff; height: 18px; width: 120px; border: 1px #1D1610 solid; background-color: #625046}
+.font-del { font-family: verdana; font-size: 9px; color: #312822; text-decoration: underline }
+.fontinner { font-family: verdana; font-size: 9px; color: #8D8580; text-decoration: none }
+.fontinner-bld { font-family: verdana; font-size: 9px; color: #8D8580; text-decoration: none ; font-weight: bold}
+.font1-bld { font-family: verdana; font-size: 9px; color: #E36C06; text-decoration: none ; font-weight: bold}

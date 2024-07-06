@@ -1,0 +1,1 @@
+name=COMPANY NAME&slogan=SLOGAN GOES HERE...&button1=HOME&button2=NEWS&button3=PC GAMES&button4=PLAYSTATION&button5=FORMS&button6=NEW RELEASES&button7=BUY GAMES&button8=GAME SYSTEM&button9=CONTACT US&rep=replay&url1=#&url2=#&url3=#&url4=#&url5=#&url6=#&url7=#&url8=#&url9=#&enddata=1
