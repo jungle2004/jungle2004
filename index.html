@@ -14,6 +14,8 @@ function MM_preloadImages() { //v3.0
 </script>
 <title>ARCTIC LAND</title>
 <link rel="icon" type="image/x-icon" href="favicon.png">
+<link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script>
 <body background="snow.jpg" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
 <table align="center" width="775" border="0" cellspacing="0" cellpadding="0">
   <tr align="left" valign="top"> 
@@ -28,8 +30,9 @@ function MM_preloadImages() { //v3.0
               autoplay: "on"
           };
           </script>
-        <div class="swf" dir="ltr" style="text-align: left;" trbidi="on">
-        <embed height="164" pluginspage=" http://www.macromedia.com/go/getflashplayer" src="MENU.swf" width="775"></div></td>
+        <div class="swf" dir="ltr" style="text-align: left;" trbidi="on"><span class="swf" style="text-align: left;">
+          <embed height="164" pluginspage=" http://www.macromedia.com/go/getflashplayer" src="MENU.swf" width="775">          
+        </span></div></td>
               </tr>
             </table> </td>
         </tr>
@@ -244,62 +247,38 @@ Batman must battle his way through hordes of the penguin's hired thugs, as he at
                 <td width="190" align="left" valign="top" background="images/right-bg-1.jpg"> 
                   <table width="190" border="0" cellspacing="0" cellpadding="0" height="169">
                     <tr align="left" valign="top"> 
-                      <td valign="middle"> 
-                        <table width="190" border="0" cellspacing="0" cellpadding="0">
-                          <tr align="left" valign="middle"> 
-                            <td width="25"></td>
-                            <td width="153"><img src="images/right_user_bx.jpg" width="75" height="16"></td>
-                            <td width="12"></td>
-                          </tr>
-                          <form name="form2" method="post" action="">
-                            <tr align="left" valign="middle"> 
-                              <td width="25"></td>
-                              <td width="153"> 
-                                <input type="text" name="textfield2" class="form1">
-                              </td>
-                              <td width="12"></td>
-                            </tr>
-                            <tr align="left" valign="middle"> 
-                              <td width="25"></td>
-                              <td width="153"><img src="images/right_pass_bx.jpg" width="75" height="16"></td>
-                              <td width="12"></td>
-                            </tr>
-                            <tr align="left" valign="middle"> 
-                              <td width="25"></td>
-                              <td width="153"> 
-                                <input type="password" name="textfield22" class="form1">
-                              </td>
-                              <td width="12"></td>
-                            </tr>
-                            <tr align="left" valign="middle"> 
-                              <td width="25"></td>
-                              <td width="153"><font size="1" class="font-del">&nbsp;</font><br>
-                                <a href="#"><img src="images/right_go1.jpg" width="39" height="20" border="0"></a><br>
-                                <font size="1" class="font-del">&nbsp;</font></td>
-                              <td width="12"></td>
-                            </tr>
-                          </form>
-                        </table>
-                      </td>
+                      <td valign="middle">&nbsp;
+<div id="playOverlay">
+        <button id="startPlayback"></button>
+        <br>
+        <div id="warning">
+        <p> WARNING: loud as hell music, please lower your volume down (also click the weird looking skeleton) </p>
+        </div>
+    </div>
+
+    <div id="player">
+        <audio id="backgroundMusic" preload="auto"></audio>
+        <div id="metadata">Title: <br> Artist: <br> Album:</div>
+        <div id="time">
+            <span class="digit" id="digit0"></span>
+            <span class="digit" id="digit1"></span>
+            <span class="digit" id="digit2"></span>
+            <span class="digit" id="digit3"></span>
+        </div>
+        <div id="controls">
+            <button id="playPauseButton"></button>
+            <button id="stopButton"></button>
+            <button id="volumeButton"></button>
+            <button id="nextButton"></button>
+        </div>
+    </div>
+					  </td>
                     </tr>
                     <tr align="left" valign="middle"> 
                       <td><img src="images/right-break-1.jpg" width="190" height="2"></td>
                     </tr>
                     <tr align="left" valign="top"> 
-                      <td class="font2" valign="middle"> 
-                        <table width="93%" border="0" cellspacing="0" cellpadding="1" align="center">
-                          <tr> 
-                            <td width="5%"></td>
-                            <td width="95%" class="font2"><a href="#" class="font2">New 
-                              User's Register</a></td>
-                          </tr>
-                          <tr> 
-                            <td width="5%"></td>
-                            <td width="95%" class="font">What was this thing for? </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
+
                   </table>
                 </td>
               </tr>
@@ -360,3 +339,5 @@ Batman must battle his way through hordes of the penguin's hired thugs, as he at
     </td>
   </tr>
 </table>
+
+    
