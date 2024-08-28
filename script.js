@@ -15,6 +15,11 @@ document.addEventListener('DOMContentLoaded', function () {
         { src: 'music/song3.mp3', artist: 'George Fan, Jonne Valtone', title: 'Tank 1-1', album: 'Insaniquarium' },
         { src: 'music/song4.mp3', artist: 'George Fan, Jonne Valtone', title: 'Tank 2-1', album: 'Insaniquarium' },
         { src: 'music/song5.mp3', artist: 'Philippe Charron', title: 'Danger', album: 'Zuma Deluxe' },
+		{ src: 'music/song6.ogg', artist: 'Radix', title: 'Yuki Satellites', },
+		{ src: 'music/song7.ogg', artist: 'Necros', title: 'Point Of Departure', },
+		{ src: 'music/song8.ogg', artist: 'Horace Wimp', title: 'Hymn to Aurora', },
+		{ src: 'music/song9.ogg', artist: 'Jester', title: 'Elysium', },
+		{ src: 'music/song10.ogg', artist: 'Captain', title: 'Space Debris', },
     ];
 
     let currentIndex = getRandomSongIndex();
